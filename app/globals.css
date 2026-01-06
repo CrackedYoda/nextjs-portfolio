@@ -9,5 +9,10 @@
 @theme inline {
   
   --font-main: var(--font-poppins);
+  --animate-infinite-scroll: infinite-scroll 40s linear infinite;
 
+  @keyframes infinite-scroll {
+    from { transform: translateX(0); }
+    to { transform: translateX(-100%); }
+  }
 }

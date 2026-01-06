@@ -3,11 +3,11 @@ const Footer = () => {
   return (
     <div className="flex flex-col mg-x gap-5 text-red-50 bg-black mx-auto px-4 md:items-center font-main border-t-2 border-t-white-100 w-full"><div className="flex flex-col">
       <div className="flex flex-col gap-2 md:items-center" >
-        <p className="text-gray-400 pt-3" >NextJs developer, Proect manager and Scrum Master helping projects build and scale on multiple platfoms</p>
+        <p className="text-gray-400 pt-3" >Full Stack App Developer, Project Manager, Automation and AI Expert helping projects build and scale on multiple platfoms</p>
         <div><ul className="flex flex-row gap-4">
-          <li><img src="/images/github-com.svg" alt="" style={{ width: '26px', height: '26px' }}/></li>
-          <li><img src="/images/linkedin.svg" alt="" style={{ width: '26px', height: '26px' }}/></li>
-          <li><img src="/images/x.svg" alt="" style={{ width: '26px', height: '26px' }}/></li>
+          <li><a href="https://github.com/CrackedYoda" target="_blank" rel="noopener noreferrer"><img src="/images/github-com.svg" alt="GitHub" style={{ width: '26px', height: '26px' }}/></a></li>
+          <li><a href="https://www.linkedin.com/in/nelson-akalia-51786222a/" target="_blank" rel="noopener noreferrer"><img src="/images/linkedin.svg" alt="LinkedIn" style={{ width: '26px', height: '26px' }}/></a></li>
+          <li><a href="https://x.com/HimWhoRemainss" target="_blank" rel="noopener noreferrer"><img src="/images/x.svg" alt="X" style={{ width: '26px', height: '26px' }}/></a></li>
         </ul>
         </div>
         </div>
