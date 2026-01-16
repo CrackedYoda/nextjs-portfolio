@@ -73,7 +73,7 @@ export default function CareerPage() {
     {
       category: "DevOps & Automation",
       icon: Settings,
-      items: ["Docker", "n8n", "Make.com"]
+      items: ["Docker", "Kubernetes", "n8n", "Make.com"]
     }
   ];
 

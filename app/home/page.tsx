@@ -2,7 +2,6 @@
 
 import Link from 'next/link';
 import { ArrowRight, CheckCircle, Award, Layout, Server, Boxes, Zap, Shield, Users, Settings, Code, Database } from 'lucide-react';
-import { SiJavascript, SiTypescript, SiReact, SiNextdotjs, SiNodedotjs, SiPostgresql, SiDocker } from 'react-icons/si';
 import SendMessage from '../components/sendmessage';
 import TechMarquee from '../components/tech-marquee';
 
@@ -31,7 +30,7 @@ export default function Home() {
     {
       category: "DevOps & Automation",
       icon: Settings,
-      items: ["Docker", "n8n", "Make.com"]
+      items: ["Docker", "Kubernetes", "n8n", "Make.com"]
     }
   ];
 
@@ -167,7 +166,7 @@ export default function Home() {
                         I’m a professional Full-Stack Developer with strong experience across startups, blockchain ecosystems, and automation-driven products. My background spans frontend engineering, backend system design, Web3 integrations, and business process automation.
                      </p>
                      <p>
-                        Beyond engineering, I’m also a <span className="text-white font-semibold">Google-Certified Project Manager</span>, which means I don’t just build features—I help teams plan, prioritize, and deliver software in a structured, on-time manner.
+                        Beyond engineering, I’m also a Google-Certified Project Manager, which means I don’t just build features—I help teams plan, prioritize, and deliver software in a structured, on-time manner.
                      </p>
                      <p>
                         My approach is simple: understand the business problem deeply, design scalable systems, and execute with precision.

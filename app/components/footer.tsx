@@ -7,7 +7,7 @@ const Footer = () => {
         <div><ul className="flex flex-row gap-4">
           <li><a href="https://github.com/CrackedYoda" target="_blank" rel="noopener noreferrer"><img src="/images/github-com.svg" alt="GitHub" style={{ width: '26px', height: '26px' }}/></a></li>
           <li><a href="https://www.linkedin.com/in/nelson-akalia-51786222a/" target="_blank" rel="noopener noreferrer"><img src="/images/linkedin.svg" alt="LinkedIn" style={{ width: '26px', height: '26px' }}/></a></li>
-          <li><a href="https://x.com/HimWhoRemainss" target="_blank" rel="noopener noreferrer"><img src="/images/x.svg" alt="X" style={{ width: '26px', height: '26px' }}/></a></li>
+          <li><a href="https://x.com/theyodafx" target="_blank" rel="noopener noreferrer"><img src="/images/x.svg" alt="X" style={{ width: '26px', height: '26px' }}/></a></li>
         </ul>
         </div>
         </div>
